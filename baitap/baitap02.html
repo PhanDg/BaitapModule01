@@ -1,86 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>baitap02</title>
+    <title>Document</title>
 </head>
+
 <body>
     <header>
-        <h1>
-            Tháng 10 - October
-        </h1>
+        <h1>Market Research Survey</h1>
+        <p>Please take a few moments to complete this satisfaction survey.</p>
     </header>
-        <table>
+    <hr>
+    <label for="auto"><b>What is your age range?</b></label>
+    <br>
+    <select name="" id="auto">
+        <option value="">18-24</option>
+        <option value="">25-60</option>
+    </select>
+    <br>
+    <label for="cost"><b>What is your yearly income range?</b></label>
+    <br>
+    <select name="" id="cost">
+        <option value="">$0-$25,000</option>
+        <option value="">$50,000-$100,000</option>
+    </select>
+    <br>
+    <label for=""><b>Gender indentity</b></label>
+    <br>
+    <input type="radio" name="">Male <br>
+    <input type="radio" name="">female <br>
+    <input type="radio" name="">nonbinary <br>
+    <input type="radio" name="">other <br>
+    <input type="text" name="" id="">
+    <br>
+    <label for=""><b>which of the following products have your purchased in last 2 months. Please check all day thay
+            apply.</b></label>
+    <br>
+    <input type="checkbox" name="">Product 1 <br>
+    <input type="checkbox" name="">Product 2 <br>
+    <input type="checkbox" name="">product 3 <br>
+    <br>
+    <label for=""><b>How often would you use our new product?</b></label>
+    <br>
+    <input type="radio" name="">Daily <br>
+    <input type="radio" name="">Weekly <br>
+    <input type="radio" name="">monthly <br>
+
+    <label for="newproduct"><b>What would you pay for the new product?</b></label><br>
+    <label for="price-dollars">$</label>
+    <input type="number">
+    <br>
+
+    <label for="features"><b>What features would you like to see in the new product?</b></label><br>
+    <input type="text">
+    <br>
+    <table>
         <thead>
             <tr>
-                <th>C.Nhật</th>
-                <th>T.Hai</th>
-                <th>T.Ba</th>
-                <th>T.Tư</th>
-                <th>T.Năm</th>
-                <th>T.Sáu</th>
-                <th>T.Bảy</th>
+                <th></th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Agree</th>
+                <th>Strongly Agree</th>
             </tr>
         </thead>
-        <tr>
-            <td>Sun</td>
-            <td>Mon</td>
-            <td>Tue</td>
-            <td>Wed</td>
-            <td>Thu</td>
-            <td>Fri</td>
-            <td>Sat</td>
-        </tr>
-    </table>
-    <table border="1" cellpadding="6" cellspacing="0">
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th>1<sub>13</sup></th>
-            <th>2<sub>14</sub></th>
-            <th>3<sub>15</sub></th>
-        </tr>
-        <tr>
-            <th>4<sub>16</sub></th>
-            <th>5<sub>17</sub></th>
-            <th>6<sub>18</sub></th>
-            <th>7<sub>19</sub></th>
-            <th>8<sub>20</sup></th>
-            <th>9<sub>21</sub></th>
-            <th>10<sub>22</sub></th>
-        </tr>
-        <tr>
-            <th>11<sub>23</sub></th>
-            <th>12<sub>24</sub></th>
-            <th>13<sub>25</sub></th>
-            <th>14<sub>26</sub></th>
-            <th>15<sub>27</sup></th>
-            <th>16<sub>28</sub></th>
-            <th>17<sub>29</sub></th>
-        </tr>
-        <tr>
-            <th>18<sub>1.9</sub></th>
-            <th>19<sub>2</sub></th>
-            <th>20<sub>3</sub></th>
-            <th>21<sub>4</sub></th>
-            <th>22<sub>5</sup></th>
-            <th>23<sub>6</sub></th>
-            <th>24<sub>7</sub></th>
-        </tr>
-        <tr>
-            <th>25<sub>8</sub></th>
-            <th>26<sub>9</sub></th>
-            <th>27<sub>10</sub></th>
-            <th>28<sub>11</sub></th>
-            <th>29<sub>12</sup></th>
-            <th>30<sub>13</sub></th>
-            <th>31<sub>14</sub></th>
-        </tr>
-    </table>
+        <tbody>
+            <tr>
+                <th>Our products are priced fairly</th>
+                <td><input type="radio" name="price"><br>
+                    1</td>
+                <td><input type="radio" name="price"><br>2</td>
+                <td><input type="radio" name="price"><br>3</td>
+                <td><input type="radio" name="price"><br>4</td>
+            </tr>
+            <tr>
+                <th>Our products are high quality.</th>
+                <td><input type="radio" name="price"><br>1</td>
+                <td><input type="radio" name="price"><br>2</td>
+                <td><input type="radio" name="price"><br>3</td>
+                <td><input type="radio" name="price"><br>4</td>
+            </tr>
+            <tr>
+                <th>You would recommend our product to a friend or coworker.</th>
+                <td><input type="radio" name="price"><br>1</td>
+                <td><input type="radio" name="price"><br>
+                    2</td>
 
-
+                <td><input type="radio" name="price"><br>3</td>
+                <td><input type="radio" name="price"><br>4</td>
+            </tr>
+        </tbody>
+    </table>
+    <button>submit</button>
 </body>
+
 </html>
